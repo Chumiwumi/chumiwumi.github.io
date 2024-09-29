@@ -1,0 +1,62 @@
+body {
+background-image: url("https://i.imgur.com/YZjWJsN.png");
+background-repeat: repeat;
+color: white;
+font-family: "Rubik", sans-serif;
+
+#wrapper {
+margin-right: auto;
+margin-left: auto;
+ width: 670px;
+ overflow: hidden;
+}
+#header {
+margin-right: 10px;
+margin-left: 10px;
+
+}
+#navigation {
+background-color: #270730;
+overflow: hidden
+}
+#navigation ul li {
+list-style: none;
+margin: 0px;
+}
+#navigation ul li a {
+float: left;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 20px;
+}
+
+#content {
+margin-top: 58px;
+margin-left: 58px;
+margin-right: 58px;
+float: right;
+background-color: #270730;
+width: 72.7083333%; /* 698 ÷ 960 */
+padding: 20px;
+}
+
+#footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #270730;
+text-align: center;
+}
+
+
+.rubik-<uniquifier> {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+}
