@@ -67,14 +67,12 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
     text-align: center;
 }
 
 nav li {
     display: block;
-    border-top: solid, 0.5px;
-    color: #f6eee4;
+    border-top: solid, 0.5px #e5e9fc;
     font-size: 1.5em;
 }
 
@@ -82,13 +80,11 @@ nav li a {
     display: block;
     color: #f6eee4;
     text-align: center;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding: 0.5em 1em;
     padding-left: 2em;
     padding-right: 2em;
     text-decoration: none;
 }
-
 
 /* Style rules for main content */
 main {
