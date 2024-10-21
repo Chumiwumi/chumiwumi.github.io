@@ -1,5 +1,5 @@
 /* CSS Reset */
-body, header, nav, main, footer, sidebar, img, h1, h2 {
+wrapper, body, header, nav, main, footer, sidebar, img, h1, h2 {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -8,7 +8,7 @@ body, header, nav, main, footer, sidebar, img, h1, h2 {
 /* Body */
 
 body {
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.imgur.com/mIGvxy2.png");
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Pattern - Background.png");
 background-repeat: repeat;
 color: white;
 font-family: "Rubik", sans-serif;
@@ -28,43 +28,53 @@ ul li a:hover {
   text-decoration: underline;
 }
 
-
 #wrapper {
-margin-right: auto;
-margin-left: auto;
- width: 670px;
- overflow: hidden;
+position: absolute;
+margin: 0;
+width: 80%;
+overflow: hidden;
+display: inline-block;
 }
-#header {
-margin-right: 10px;
-margin-left: 10px;
 
+
+#header {
+overflow: hidden;
 }
+
+#header img {
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  }
 
 /* Nav Bar */
 
-#navigation {
+#nav {
 background-color: #341539;
 overflow: hidden;
-margin: auto;
 }
-#navigation ul li {
-list-style: none;
 
+#nav ul {
+    list-style-type: none;
+    text-align: center;
 }
-#navigation ul li a {
-float: left;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 20px;
+
+#nav li {
+    display: inline;
+    font-size: 2em;
+}
+
+#nav a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
 }
 
 #content {
 margin: auto;
 margin-top: 10px;
-float: center;
 background-color: #341539;
 width: 72.7083333%; /* 698 ÷ 960 */
 padding: 30px;
@@ -74,41 +84,57 @@ margin-bottom: 10px;
 /* Sidebar */
 
 #sidebar {
-background: #341539;
-border-style: line;
+display: inline-block;
+margin: 0;
+top: 10px;
+bottom: 5px;
+background-image: url("Images/sidebar1.png");
 width: 200px;
-position: fixed;
-top: 150px;
+height: 350px;
+position: relative;
 left: 100px;
 }
-#sidebar .image {
-      width: 190px;
-      height: auto;
+
+#sidebar .img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
 }
+
 #sidebar ul li{
 list-style: none;
 margin: 0px;
 }
+
 #sidebar ul li a {
 text-decoration: none;
 background: none;
-font-size: 25px;
+font-size: 20px;
 color: white;
-text-align: left;
 }
 
 #product .image{
 width: 120px;
 height: auto;
 }
+
+/* product showcasing */
   
 #product {
-display: table-row-group;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
 }
+
+#product a {
+  font-size: 15px;
+  }
 
 /* Footer */
 
 footer {
+bottom: 0;
 text-align: center;
 padding: 10px;
 }
