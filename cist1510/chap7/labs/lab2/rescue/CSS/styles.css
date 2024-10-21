@@ -29,12 +29,15 @@ img {
 /* Style rules to show mobile class and hide tab-desk class */
 #mobile {
     display: block;
-}
 
 #tab-desk {
     display: none;
     visibility: hidden;
 }
+    
+}
+
+
 
 /* Style rules for header area */
 
@@ -220,9 +223,6 @@ aside {
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1000px), print {
-
-}
-
 /* Desktop Viewport: Style rules for nav area */
 .nav li {
         font-size: 1.5em;
@@ -253,11 +253,11 @@ aside {
     grid-column: 1 / span 3;
     font-size: 2em;
 }
+    
+}
 
 /* Media Query for Large Desktop Viewports */
 @media screen and (min-width: 1921px), print{
-
-}
 
 #body {
     background: linear-gradient(#f6eee4, #78593a);
@@ -282,6 +282,10 @@ aside {
     grid-column: 1 / span 4;
     font-size: 3em;
 }
+    
+}
+
+
 
 /* Media Query for Print */
 @media screen, print {
