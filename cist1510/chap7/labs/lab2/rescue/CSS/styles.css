@@ -28,9 +28,9 @@ img {
 
 /* Style rules to show mobile class and hide tab-desk class */
 #mobile {
-
     display: block;
 }
+
 #tab-desk {
     display: none;
     visibility: hidden;
@@ -79,8 +79,10 @@ nav li a {
     display: block;
     color: #f6eee4;
     text-align: center;
-    padding-top, padding-bottom: 0.5em;
-    padding-left, padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
     text-decoration: none;
 }
 
