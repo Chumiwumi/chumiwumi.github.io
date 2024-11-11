@@ -4,7 +4,7 @@ Date: 09/11/24
 File Name: script.js
 */
 
-Hamburger menu function
+//Hamburger menu function
 
 //Global variables
 var answer = document.querySelector("#answer p");
