@@ -32,7 +32,6 @@ img {
 
 /* Style rules to show mobile class and hide tab-desk class */
 #mobile, #mobile-tablet {
-
     display: block;
 }
 #tab-desk, #desktop, #nav-links {
@@ -43,7 +42,7 @@ img {
 /* Style rules for header area */
 
 
-.mobile h1, h3{
+.h1, h3{
     padding: 2%;
     text-align: center;
     margin: 2% 0 0 3%;
@@ -68,7 +67,7 @@ h3{
     background-color: #2a1f14;
 }
 
-.mobile nav a{
+.nav a{
     color: #fff;
     text-align: center;
     font-size: 2em;
