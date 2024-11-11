@@ -25,20 +25,15 @@ img {
 
 /* Style rules for mobile viewport */
 
-.mobile-nav {
-    display: none;
-}
-
-
 /* Style rules to show mobile class and hide tab-desk class */
-#mobile, #mobile-tablet {
-
+.mobile, .mobile-tablet {
     display: block;
 }
-#tab-desk, #desktop, #nav-links {
+
+.tab-desk, .desktop, #nav-links {
     display: none;
-    visibility: hidden;
 }
+
 
 /* Style rules for header area */
 
