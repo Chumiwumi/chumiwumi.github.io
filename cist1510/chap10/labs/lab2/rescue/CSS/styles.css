@@ -260,8 +260,7 @@ footer {
     font-size: 0.85em;
     background-color: #2a1f14;
     color: #f6eee4;
-    padding-top, padding-bottom: 1%;
-    padding-left, padding-right: 0%;
+    margin: auto auto;
     clear: left;
 }
 
