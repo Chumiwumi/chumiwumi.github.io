@@ -252,36 +252,53 @@ tr:nth-child(odd) {
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 620px), print {
+ 
+    /* Tablet Viewport: Show tab-desk class, hide mobile class */
+    .tab-desk {
+        display: block;
+    }
 
-}
-
-/* Tablet Viewport: Show tab-desk class, hide mobile class */
-.tab-desk, .desktop {
-    display: block;
-}
-
-.mobile, .mobile-tablet {
-    display: none;
-}
-
-/* Tablet Viewport: Style rules for nav area */
-.nav li: {
-    border-top: none;
-    display: inline-block;
-    font-size: 1.25em;
-}
-.nav li a {
-    padding: 0.5em;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10px;
-}
-
-aside {
-    grid-column: 1 / span 2;
+    .mobile, .mobile-nav {
+        display: none;
+    }
+    
+    /* Tablet Viewport: Style rules for nav area */
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    nav li {
+        border-top: none;
+        display: inline-block;
+        font-size: 1.25em;
+        font-family: Geneva, Arial, sans-serif;
+        font-weight: bold;
+    }
+    
+    nav li a {
+        padding: 0.5em;
+        display: block;
+        color: #f6eee4;
+        text-decoration: none;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+    }
+    
+    aside {
+        grid-column: 1 / span 2;
+    }
+    
+    /* Tablet Viewport: Style rule for form element */
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
 }
 
 /* Media Query for Desktop Viewport */
