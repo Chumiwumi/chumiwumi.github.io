@@ -178,10 +178,43 @@ figcaption {
 }
 
 /* Tablet Viewport: Style rule for form element */
-form {
-    width: 70%;
-    margin-top, margin-bottom: 0;
-    margin-left, margin-right: auto;
+/* Style rules for form elements */
+fieldset, input, textarea  { 
+    margin-bottom: 2%;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+label {
+    display: block;
+    padding-top: 2%;
+}
+
+#submit {
+    margin: 0 auto;
+    display: block;
+    padding: 2%;
+    background-color: #78593a;
+    color: #f6eee4;
+    font-size: 1.25em;
+    border-radius: 10px;
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #2a1f14;
+    color: #f6eee4;
+    padding: 1% 0;
+}
+
+footer a {
+    color: #f6eee4;
+    text-decoration: none;
 }
 
 /* Style rules for table */
@@ -215,46 +248,6 @@ tr:nth-child(odd) {
 
 .map {
     border: 5px solid #373684;
-}
-
-/* Style rules for form elements */
-.mobile {
-    fieldset, input, textarea {
-        margin-bottom: 2%;
-    }
-    fieldset, legend {
-        font-weight: bold;
-        font-size: 1.25em;
-    }
-    label {
-        display: block;
-        padding-top: 2%;
-    }
-    #submit {
-        margin-bottom, margin-top: zero;
-        margin-left, margin-right: auto;
-        display: block;
-        padding: 2%;
-        background-color: #78593a;
-        color: #f6eee4;
-        font-size: 1.25em;
-        border-radius: 10px;
-}
-
-/* Style rules for footer content */
-footer {
-    text-align: center;
-    font-size: 0.85em;
-    background-color: #2a1f14;
-    color: #f6eee4;
-    padding-top, padding-bottom: 1%;
-    padding-left, padding-right: 0%;
-    clear: left;
-}
-
-footer a {
-    color: #f3e6d8;
-    text-decoration: none;
 }
 
 /* Media Query for Tablet Viewport */
