@@ -63,11 +63,11 @@ h3{
 
 /* Style rule for navigation area */
 
-.nav {
+nav {
     background-color: #2a1f14;
 }
 
-.nav a{
+nav a{
     color: #fff;
     text-align: center;
     font-size: 2em;
@@ -123,7 +123,7 @@ aside {
 form {
     width: 70%;
     margin-top, margin-bottom: 0;
-    margin-left, margin-right: auto;
+    margin-left, margin-right: auto auto;
 }
 
 /* Style rules for table */
