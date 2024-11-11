@@ -42,13 +42,11 @@ img {
 
 /* Style rules for header area */
 
-.mobile h1 {
-    margin: 2% 0 0 3%;
-}
 
-h1, h3{
+.mobile h1, h3{
     padding: 2%;
     text-align: center;
+    margin: 2% 0 0 3%;
 }
 
 h1{
@@ -320,7 +318,9 @@ aside {
 @media screen and (min-width: 1000px), print {
 
 /* Desktop Viewport: Show desktop class, hide mobile-tablet class */
-
+.desktop {
+    display: block;
+}
 .mobile-tablet {
     display: none;
 }
