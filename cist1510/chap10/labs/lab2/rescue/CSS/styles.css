@@ -71,9 +71,8 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    text-align: center;
+		list-style: none;
+		text-align: center;
 }
 
 .mobile-nav a {
@@ -288,13 +287,23 @@ footer a {
 }
 
 /* Tablet Viewport: Style rules for nav area */
-.nav li: {
-    border-top: none;
-    display: inline-block;
-    font-size: 1.25em;
+.nav ul {
+		list-style: none;
+		text-align: center;
+	}
+	
+.nav li {
+		border-top: none;
+		display: inline-block;
+		font-size: 1.25em;
+		font-family: Geneva, Arial, sans-serif;
+		font-weight: bold;
 }
+	
 .nav li a {
-    padding: 0.5em;
+		display: block;
+		color: #f6eee4;
+		text-decoration: none;
 }
 
 .grid {
@@ -325,10 +334,10 @@ aside {
 }
 
 .nav li a {
+    color: #f6eee4;
     padding-top, padding-bottom: 0.5em;
     padding-left, padding-right: 1.5em;
     display: block;
-    color: #f6eee4;
     text-align: center;
     text-decoration: none;
 }
