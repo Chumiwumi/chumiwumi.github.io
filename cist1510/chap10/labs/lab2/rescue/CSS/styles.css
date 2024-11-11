@@ -32,6 +32,7 @@ img {
 
 /* Style rules to show mobile class and hide tab-desk class */
 #mobile, #mobile-tablet {
+
     display: block;
 }
 #tab-desk, #desktop, #nav-links {
@@ -41,11 +42,13 @@ img {
 
 /* Style rules for header area */
 
+.mobile h1 {
+    margin: 2% 0 0 3%;
+}
 
-.h1, h3{
+h1, h3{
     padding: 2%;
     text-align: center;
-    margin: 2% 0 0 3%;
 }
 
 h1{
@@ -57,7 +60,7 @@ h1{
 h3{
     font-family: "Lora", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -67,7 +70,13 @@ nav {
     background-color: #2a1f14;
 }
 
-nav a{
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+.mobile-nav a {
     color: #fff;
     text-align: center;
     font-size: 2em;
@@ -75,6 +84,22 @@ nav a{
     padding: 3%;
     display: block;
 }
+
+.mobile-nav a.nav-icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #f6eee4;
+    padding: 2%;
+}
+
+.nav-icon div {
+    height: 40px;
+    width: 40px;
+    color: #2a1f14;
+}
+
 
 /* Style rules for main content */
 main {
@@ -108,7 +133,7 @@ main ul{
 
 .round {
 
-    border-radius: : 6px;
+    border-radius: 6px;
 
 }
 
@@ -123,7 +148,7 @@ aside {
 form {
     width: 70%;
     margin-top, margin-bottom: 0;
-    margin-left, margin-right: auto auto;
+    margin-left, margin-right: auto;
 }
 
 /* Style rules for table */
@@ -238,7 +263,8 @@ footer {
     font-size: 0.85em;
     background-color: #2a1f14;
     color: #f6eee4;
-    margin: auto auto;
+    padding-top, padding-bottom: 1%;
+    padding-left, padding-right: 0%;
     clear: left;
 }
 
@@ -262,23 +288,13 @@ footer a {
 }
 
 /* Tablet Viewport: Style rules for nav area */
-.nav ul {
-		list-style: none;
-		text-align: center;
-	}
-	
-.nav li {
-		border-top: none;
-		display: inline-block;
-		font-size: 1.25em;
-		font-family: Geneva, Arial, sans-serif;
-		font-weight: bold;
+.nav li: {
+    border-top: none;
+    display: inline-block;
+    font-size: 1.25em;
 }
-	
 .nav li a {
-		display: block;
-		color: #f6eee4;
-		text-decoration: none;
+    padding: 0.5em;
 }
 
 .grid {
@@ -295,9 +311,7 @@ aside {
 @media screen and (min-width: 1000px), print {
 
 /* Desktop Viewport: Show desktop class, hide mobile-tablet class */
-.desktop {
-    display: block;
-}
+
 .mobile-tablet {
     display: none;
 }
@@ -311,10 +325,10 @@ aside {
 }
 
 .nav li a {
-    color: #f6eee4;
     padding-top, padding-bottom: 0.5em;
     padding-left, padding-right: 1.5em;
     display: block;
+    color: #f6eee4;
     text-align: center;
     text-decoration: none;
 }
