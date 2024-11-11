@@ -35,27 +35,31 @@ img {
 }
 
 
-/* Style rules for header area */
+/* Style rule show mobile class and hide tab-desk class */
+.mobile, .mobile-tablet {
+    display: block;
+}
 
+.tab-desk, .desktop, #nav-links {
+    display: none;
+}
+
+/* Style rules for header area */
 .mobile h1, .mobile h3 {
     padding: 2%;
     text-align: center;
 }
 
 .mobile h1 {
-    font-family: 'Emblema One', system-ui;
+    font-family: 'Emblema One', cursive;
     margin: 2% 0 0 3%;
 }
 
 .mobile h3 {
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
+    font-family: 'Lora', serif;
 }
 
-/* Style rule for navigation area */
-
+/* Style rules for navigation area */
 nav {
     background-color: #2a1f14;
 }
