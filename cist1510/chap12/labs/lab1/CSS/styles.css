@@ -15,7 +15,7 @@ body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption
 /* For Bootstrap Elements */
 
 .hero {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(/Images/music-notes.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://chumiwumi.github.io/cist1510/chap12/labs/lab1/Images/music-notes.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
